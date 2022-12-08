@@ -7,7 +7,7 @@
 from random import randint as rnd
 
 
-def dividers(a: int, uniq: bool = False) -> list[int]:
+def dividers(a: int, uniq: bool = False) -> list[int]: #Возвращает список простных делителей, uniq = True вернёт список уникальных делителей
     i = 2
     dividers = []
     while a != 1:
